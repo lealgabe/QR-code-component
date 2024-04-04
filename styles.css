@@ -11,13 +11,12 @@ body {
     margin: 100px auto;
     padding: 20px;
     text-align: center;
-    width: 320px;
-    height: 497px;
+    max-width: 20rem;
 }
 
 .title {
     font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -25,19 +24,24 @@ body {
     font-family: 'Outfit';
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
 
 img {
-    width: 288px;
-    height: 288px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 10px;
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1rem;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.title, .subtitle {
+    padding: 16px;
 }
